@@ -43,6 +43,7 @@ test('fill form', async ({page}) => {
     await stateToSelect.click()
     await selectCity.click()
     await cityToSelect.click()
+    await submit.click()
 
     await expect(tableModal).toBeVisible()
 })
