@@ -11,4 +11,8 @@ export class NavigateTo{
     public static async homePageUrl(page: Page){
         await page.goto("https://demoqa.com")
     }
+
+    public static async practiceFormUrl(page: Page){
+        await page.goto('https://demoqa.com/automation-practice-form')
+    }
 }
